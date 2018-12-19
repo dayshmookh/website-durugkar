@@ -232,7 +232,7 @@ a:hover {
 	float: left;
 	cursor: pointer;
 	text-indent: -9999em;
-	background: url(../images/logo.png) no-repeat;
+	background: url(../images/logo1.png) no-repeat;
 }
 
 
@@ -325,7 +325,7 @@ a:hover {
 
 #slider li {
 	color: #fff;
-	height: 686px;
+	height: 100vh;
 	background: no-repeat 50% 0;
 	background-size: cover;
 }
@@ -364,7 +364,8 @@ a:hover {
     transition: all 0.5s ease-in-out;
 }
 
-#slider h2 {
+#slider h2,
+#hammer {
 	font-family: "Novecentowide";
 	color: #fff;
 	font-size: 48px;
@@ -540,7 +541,7 @@ a:hover {
 .quick-links article {
 	margin: 0 15px;
 	display: inline-block;
-	width: 370px;
+	width: 555px;
 	height: 412px;
 }
 
@@ -1363,10 +1364,10 @@ h1 {
 ------------------------------------------------------------------------------*/ 
 
 
-@media (-webkit-min-device-pixel-ratio: 2), (min-reso#lution: 192dpi) { 
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) { 
 
 	#logo {
-		background-image: url(../images/logo@2x.png);
+		background-image: url(../images/logo1.png);
 		background-size: cover;
 	}
 
@@ -1542,7 +1543,7 @@ h1 {
 
 	#slider h2 {
 		font-size: 18px;
-		margin: -14px 0 -10px;
+		
 		letter-spacing: 1px;
 	}
 
